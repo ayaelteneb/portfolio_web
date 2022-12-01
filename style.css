@@ -1,0 +1,257 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.background {
+    background-image: url(./img/pexels-suzy-hazelwood-1.png);
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    width: 1920px;
+    margin: 70px auto;
+}
+
+.header {
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav {
+    display: flex;
+    width: 500px;
+    justify-content: space-between;
+}
+
+.nav a {
+    color: #222222;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 35px;
+}
+
+.nav a:hover {
+    font-style: italic;
+}
+
+.main {
+    /* border: 2px solid orange; */
+} 
+
+.main p {
+    /* border: 2px solid black; */
+    font-family: 'Abril Fatface', cursive;
+    padding-bottom: 70px;
+}
+
+.main1 {
+    margin-top: 60px;
+    font-size: 100px;
+}
+
+.main-words {
+    text-align: center;
+    margin: 0 auto;
+}
+
+.main-images {
+    /* border: 2px solid green;  */
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+.footer{
+    display: flex;
+    justify-content: center;  
+    align-items: center; 
+    /* border: 2px solid red; */
+}
+
+.blog {
+    width: 465px;
+    height: 665px;
+    background-image: url(./img/blog.png);
+    text-align: center;
+    padding-top: 260px;
+}
+
+.gallery {
+    width: 465px;
+    height: 665px;
+    background-image: url(./img/gallery.png);
+    text-align: center;
+    padding-top: 260px;
+}
+
+.contact {
+    width: 465px;
+    height: 665px;
+    background-image: url(./img/contact.png);
+    text-align: center;
+    padding-top: 260px;
+}
+
+.main2 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.main2 a{
+    font-size: 50px;
+    justify-content: space-between;
+    /* border: 2px solid green; */
+    color: #FFFFFF;
+    font-family: 'Abril Fatface', cursive;
+}
+
+.section {
+    text-align: center;
+    width: 1920px;
+    background-color: #EEEEEE;
+    padding: 200px; 
+    font-family: 'Poppins', sans-serif;
+}
+
+.section p{
+    font-size: 40px;
+    font-weight: 400;
+}
+
+.author{
+    font-size: 20px;
+    padding-top: 25px;
+}
+
+.contact-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;  
+    gap: 80px;
+}
+
+.contact-sheet{
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    /* border: 2px solid red;  */
+    color: #222222;
+    line-height: 80px;
+    padding-top: 120px;
+    padding-right: 40px;
+}
+
+.hands-img{
+    display: flex;
+    flex: 1;
+}
+
+.contact2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.contact-section h1{
+    font-size: 70px;
+    font-family:  'Abril Fatface', cursive;
+    padding-bottom: 50px;
+}
+
+.contact-section p{
+    font-size: 32px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.table {
+    border: 1px solid black;
+    height: 100px;
+}
+
+.main-gallery {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.main-gallery img{
+    width: 620px;
+}
+
+.column{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.main-blog h1{
+    text-align: center;
+    font-size: 90px;
+    font-family:  'Abril Fatface', cursive;
+    padding-bottom: 60px;
+}
+
+.blog-boxes{
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+}
+
+.pic {
+    display: flex;
+    flex-direction: row;
+    background-color: #FFFFFF;
+    gap: 50px;
+    border: 1px solid #222222 ;
+}
+
+.pic img {
+    display: flex;
+    flex: 1;
+}
+
+.pic a {
+    display: flex;
+    flex: 1;
+    align-items: center;
+    font-family:   'Abril Fatface', cursive;
+    font-size: 45px;
+    color: #8F2899;
+}
+
+.main-blog-pages {
+    font-family: 'Poppins', sans-serif;
+    font-size: 30px;
+    font-weight: 400;
+    color: #222222; 
+}
+
+.paragraphs{
+    padding-bottom: 60px;
+}
+
+.paragraphs h4 {
+    padding-bottom: 30px;
+}
+
+.blog-paragraphs {
+    padding-top: 70px;
+}
+
+.main-blog-pages h1{
+    text-align: center;
+}
