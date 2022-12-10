@@ -8,7 +8,7 @@
 }
 
 .background {
-    background-image: url(./img/pexels-suzy-hazelwood-1.png);
+    background-image: url(./img/background.png);
 }
 
 li {
@@ -29,6 +29,10 @@ a {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    position: sticky;
+    top: 60px;
+    background-color: #FFFFFF;
+    height: 100px;
 }
 
 .nav {
@@ -47,10 +51,6 @@ a {
 .nav a:hover {
     font-style: italic;
 }
-
-.main {
-    /* border: 2px solid orange; */
-} 
 
 .main p {
     /* border: 2px solid black; */
@@ -151,7 +151,7 @@ a {
     /* border: 2px solid red;  */
     color: #222222;
     line-height: 80px;
-    padding-top: 120px;
+    padding-top: 80px;
     padding-right: 40px;
 }
 
@@ -177,9 +177,12 @@ a {
     font-family: 'Poppins', sans-serif;
 }
 
-.table {
+input {
     border: 1px solid black;
     height: 100px;
+    padding: 20px;
+    font-size: 20px;
+    background:none;
 }
 
 .main-gallery {
@@ -244,14 +247,84 @@ a {
     padding-bottom: 60px;
 }
 
+.flex{
+    display: flex;
+    gap: 40px;
+}
+
+.flex img{
+    width: 400px;
+}
+
 .paragraphs h4 {
-    padding-bottom: 30px;
+    padding-bottom: 50px;
 }
 
 .blog-paragraphs {
     padding-top: 70px;
 }
 
+.blog-paragraphs img{
+    padding-bottom: 70px;
+    padding-top: 20px;
+}
+
+
 .main-blog-pages h1{
     text-align: center;
+}
+
+.twopics{
+    display: flex;
+    justify-content: space-between;
+}
+
+.send button{
+    width: 200px;
+    height: 60px;
+    background-color:#8F2899;
+    border-radius: 10px;
+    border: 3px solid #8F2899;
+    margin-top: 40px;
+    color: #FFFFFF;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 32px;
+}
+
+.send button:hover{
+    background-color: #FFFFFF;
+    border: 3px solid #8F2899;
+    color: #8F2899;
+}
+
+.popup {
+    width: 550px;
+    position: absolute;
+    border-style: double;
+    font-size: 25px;
+    font-family: 'Poppins', sans-serif;
+    background-color: white;
+    color: #222222;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+}
+
+.popup p{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.popup button{
+    color: #222222;
+    border: 3px solid #222222;
+    background-color: #FFFFFF;
+    font-size: 25px; 
+    text-align: center;
+    padding: 10px;
+    width: 458px;
+    font-family: 'Poppins', sans-serif;
+    text-transform: uppercase;
+    font-weight: 600;
 }
